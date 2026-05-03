@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm install -g @playwright/mcp@latest)",
+      "PowerShell(npx --no-install @playwright/mcp --version)",
+      "mcp__playwright",
+      "Bash(git -C \"c:\\\\Users\\\\OstapKovalchuk\\\\source\\\\repos\\\\uigen\" status)",
+      "Bash(git -C \"c:\\\\Users\\\\OstapKovalchuk\\\\source\\\\repos\\\\uigen\" remote -v)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
